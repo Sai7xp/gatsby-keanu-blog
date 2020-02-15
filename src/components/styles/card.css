@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Source+Code+Pro&display=swap');
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   grid-gap: 1rem;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 15rem auto;
+  width: 15.5rem auto;
   height: 15rem;
   background: #fff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
