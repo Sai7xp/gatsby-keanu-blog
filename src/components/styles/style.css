@@ -1,16 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
 .homepage{
   /* background-color: #0A192F; */
   /* background: url('https://wallpaperplay.com/walls/full/9/3/b/60600.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  /* height: 100vh; */
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
   width: 100%;
   margin-top: 5%;
   /* height: 100vh; */
-}
-.urike{
-  margin-left: 38%;
 }
 .homepage2{
 height: 100vh;
@@ -25,11 +24,26 @@ html,body{
   background-color: #0A192F ;
 
 }
-a{
+.intro1{
+  margin-left: 8%;
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* header style */
+.topnav {
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+.topnav a {
+  float: right;
+  font-family: 'Tomorrow', sans-serif;
+  color: #64FFDA;
   text-align: center;
-  color: red;
-  margin-top: 0;
   display: flex;
+  padding: 14px 16px;
   text-decoration: none;
-  text-decoration-line: none;
+  font-size: 17px;
 }

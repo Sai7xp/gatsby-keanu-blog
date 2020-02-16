@@ -8,7 +8,7 @@
   /* margin: auto; */
   margin-left: 3%;
   margin-right: 3%;
-  margin-top: 3.5%;
+  /* margin-top: 3.5%; */
   padding: 1rem 0;
 }
 
@@ -50,4 +50,11 @@
   padding: 0.3rem 1rem;
   font-family: 'Source Code Pro', sans-serif;
   border-radius: 20px;
+}
+
+b{
+  text-align: center;
+  color: #ccc;
+  margin: 0 auto;
+  margin-top: 1%;
 }

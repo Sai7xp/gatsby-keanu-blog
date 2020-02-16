@@ -4,10 +4,14 @@ import Card from "../components/card"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import "../components/styles/card.css"
 import SEO from "../components/seo"
-import Header from "../components/header"
+import Footer from "../components/footer"
 export default function projects({data}) {
     const projectList = data.allProjectsYaml.edges
     return (
+      <div>
+      <AniLink cover to="/" bg="#663399" direction="right">
+      <b className="gohome">🏠</b>
+    </AniLink>
         <div className="container">
         <SEO title="Projects" />
         {projectList.map(({ node }) => {
@@ -20,9 +24,8 @@ export default function projects({data}) {
             />
           )
         })}
-        <AniLink cover direction="right" to="/" bg="#663399">
-  Go to home
-</AniLink>
+        </div>
+        <Footer />
         </div>
     )
 }
