@@ -12,6 +12,8 @@ const IndexPage = () => (
   <div className="homepage">
     <SEO title="Jonathan" />
     <p className="intro1">Hi, my name is</p>
+    <h2 className="introname">Ehris Evan.</h2>
+    <h3>I Build things for the<br /> web.</h3>
     {/* <div style={{ maxWidth: `100px`, marginBottom: `1.45rem` }}>
       <Image />
     </div> */}

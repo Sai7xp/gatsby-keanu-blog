@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|Poppins&display=swap');
 .homepage{
   /* background-color: #0A192F; */
   /* background: url('https://wallpaperplay.com/walls/full/9/3/b/60600.jpg'); */
@@ -25,25 +27,41 @@ html,body{
 
 }
 .intro1{
-  margin-left: 8%;
-  color: white;
-  font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
+  margin-top: 13%;
+  margin-left: 8.5%;
+  color: #64FFDA;
+  font-size: 2.8vmax;
+  transition-delay: 100ms;
+  font-family: 'PT Mono', monospace;
 }
 
+h2{
+color: #CCD6F6;
+font-size: 9vw;
+margin-left:8.5%;
+margin-top: 0;
+margin-bottom: 15px;
+}
+h3{
+  margin-top: 0;
+  margin-left:8.5%;
+  color:#8892B0;
+  font-size: 7.3vw;
+}
 /* header style */
 .topnav {
   overflow: hidden;
-  /* background-color: #333; */
+  margin-right: 8%;
 }
 
 .topnav a {
-  float: right;
-  font-family: 'Tomorrow', sans-serif;
+  float:right;
+  font-family: 'Source Code Pro', sans-serif;
   color: #64FFDA;
   text-align: center;
   display: flex;
-  padding: 14px 16px;
+  /* justify-content:sp; */
+  padding: 15px 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size:18px;
 }

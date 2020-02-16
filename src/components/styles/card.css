@@ -58,3 +58,8 @@ b{
   margin: 0 auto;
   margin-top: 1%;
 }
+.gohome{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
