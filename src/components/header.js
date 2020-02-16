@@ -8,7 +8,7 @@ export default function header() {
         <AniLink cover to="projects" bg="#663399">
          
           <a>Projects</a>
-          <a>HireMe</a>
+          {/* <a>HireMe</a> */}
         </AniLink>
        {/*  <AniLink cover to="projects" bg="#663399">
           <a>Projects</a>

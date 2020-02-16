@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway&display=swap');
 .ftrtext{
     text-align: center;
     color: powderblue;
-    font-family: 'Sriracha' , cursive;
-    margin-top: 34%;
+    font-family: 'Raleway', sans-serif;
+    /* margin-top: 34%; */
+    margin-bottom: 0;
+}
+.footerbody{
+    bottom: 0;
+    /* position: fixed; */
 }
