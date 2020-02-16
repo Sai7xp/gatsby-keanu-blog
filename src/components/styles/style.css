@@ -1,4 +1,35 @@
+.homepage{
+  /* background-color: #0A192F; */
+  /* background: url('https://wallpaperplay.com/walls/full/9/3/b/60600.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  width: 100%;
+  margin-top: 5%;
+  /* height: 100vh; */
+}
+.urike{
+  margin-left: 38%;
+}
+.homepage2{
+height: 100vh;
+background-color: white;
+align-items: center;
+display: flex;
+justify-content: right;
+}
 html,body{
-  background-color: #ccc;
-  
+  margin: 0;
+  padding: 0;
+  background-color: #0A192F ;
+
+}
+a{
+  text-align: center;
+  color: red;
+  margin-top: 0;
+  display: flex;
+  text-decoration: none;
+  text-decoration-line: none;
 }

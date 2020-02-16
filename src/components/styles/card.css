@@ -18,7 +18,7 @@
   flex-direction: column;
   width: 15.5rem auto;
   height: 15rem;
-  background: #fff;
+  background: #172A45;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 10px;
   margin: auto;
@@ -34,7 +34,7 @@
 }
 
 .card--title {
-  color: #222;
+  color: #CCD6F6;
   font-weight: 200;
   text-transform: capitalize;
   font-size: 1.1rem;
@@ -45,9 +45,9 @@
 .card--link {
   text-decoration: none;
   /* background: darkorange; */
-  background: rgb(229, 54, 83);
-  color: #fff;
+  background: rgb(255, 6, 89);
+  color: rgb(255, 255, 255);
   padding: 0.3rem 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Source Code Pro', sans-serif;
   border-radius: 20px;
 }

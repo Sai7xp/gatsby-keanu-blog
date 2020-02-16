@@ -1,9 +1,10 @@
 import React from 'react'
 import { graphql } from "gatsby"
 import Card from "../components/card"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import "../components/styles/card.css"
 import SEO from "../components/seo"
-
+import Header from "../components/header"
 export default function projects({data}) {
     const projectList = data.allProjectsYaml.edges
     return (
@@ -19,6 +20,9 @@ export default function projects({data}) {
             />
           )
         })}
+        <AniLink cover direction="right" to="/" bg="#663399">
+  Go to home
+</AniLink>
         </div>
     )
 }
