@@ -10,7 +10,7 @@ export default function projects({data}) {
     return (
       <div>
       <AniLink cover to="/" bg="#663399" direction="right">
-      <b className="gohome">🏠</b>
+      <b className="gohome">  🏠</b>
     </AniLink>
         <div className="container">
         <SEO title="Projects" />

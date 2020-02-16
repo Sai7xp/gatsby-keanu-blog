@@ -29,10 +29,11 @@ body {
   background-color: #0a192f;
 }
 .intro1 {
-  margin-top: 10vw;
+  margin-top: 8vw;
   margin-left: 8.5%;
+  margin-bottom: 2.5vw;
   color: #64ffda;
-  font-size: 2.8vmax;
+  font-size: 2.5vmax;
   transition-delay: 100ms;
   font-family: "PT Mono", monospace;
 }
@@ -54,7 +55,7 @@ h3 {
   margin-left: 8.5%;
   font-family: "Nunito", sans-serif;
   color: #8892b0;
-  line-height:01;
+  line-height:1.3;
   font-size: 7vw;
   margin-bottom: 15px;
 }
@@ -75,7 +76,7 @@ h3 {
  .topnav a {
   float: right;
   font-family: "Source Code Pro", sans-serif;
-  color: #64ffda;
+  color: rgb(97, 235, 97);
   text-align: center;
   display: flex;
   /* justify-content:sp; */

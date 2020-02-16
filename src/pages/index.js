@@ -17,7 +17,10 @@ const IndexPage = () => (
     
     <p className="para">I'm a software engineer based in India, <br />
     Just because we check the guns.</p>
+    <div className="btnrow">
     <button className="button"><a className="btnlink" href="mailto:sumanth77snehi@gmail.com">Get In Touch</a></button>
+    <button className="button"><a className="btnlink" href="https://drive.google.com/open?id=1G8zw95uXzs2PJjURlfpuAXNWiY66Gy_b">&nbsp;Resume&nbsp;</a></button>
+    </div>
     {/* <div style={{ maxWidth: `100px`, marginB `1.45rem` }}>
       <Image />
     </div> */}

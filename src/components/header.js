@@ -7,7 +7,7 @@ export default function header() {
       <div class="topnav">
         <AniLink cover to="projects" bg="#663399">
          
-          <a>Projects</a>
+          <a>Projects -></a>
           {/* <a>HireMe</a> */}
         </AniLink>
        {/*  <AniLink cover to="projects" bg="#663399">
